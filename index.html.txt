@@ -1,90 +1,114 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | English Classes</title>
+  <title>Learn English with Shifan</title>
+
   <link rel="stylesheet" href="style.css">
+
+  <!-- Custom Font -->
+  <style>
+    @font-face {
+      font-family: "Recoleta";
+      src: url("Recoleta_Alt_SemiBold.otf");
+    }
+  </style>
 </head>
 
 <body>
-<logobrown.png>
 
-  <!-- HERO -->
+  <!-- TOP NAV -->
+  <header class="topbar">
+    <div class="logo-area">
+      <img src="Logo.png" alt="Logo" class="logo">
+    </div>
 
-  <header class="hero">
-    <div class="container">
-      <img src="profile.jpg" alt="Profile" class="profile-img">
-
-```
-  <h1>YOUR NAME</h1>
-  <p class="tagline">Professional English Teacher | Spoken & Grammar Coach</p>
-
-  <a class="btn" 
-     href="https://wa.me/94XXXXXXXXX" 
-     target="_blank">
-     💬 Chat on WhatsApp
-  </a>
-</div>
-```
-
+    <div class="title-area">
+      <h1>Learn English with Shifan</h1>
+    </div>
   </header>
 
-  <!-- ABOUT -->
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
 
-  <section class="section">
-    <h2>About Me</h2>
-    <p>
-      Write your professional introduction here. Explain your teaching experience,
-      methods, and what makes your classes effective.
-    </p>
-  </section>
+      <h2 class="big-title">Learn • Speak • Succeed</h2>
 
-  <!-- SERVICES -->
+      <p class="phone-main">
+        📞 077 6333 833
+      </p>
 
-  <section class="section dark">
-    <h2>What I Offer</h2>
-    <ul>
-      <li>Spoken English Training</li>
-      <li>Grammar Mastery</li>
-      <li>Confidence Building Sessions</li>
-      <li>Exam Preparation</li>
-    </ul>
-  </section>
+      <a class="whatsapp-btn"
+         href="https://wa.me/94776333833"
+         target="_blank">
+         💬 Chat on WhatsApp
+      </a>
 
-  <!-- WHY CHOOSE -->
-
-  <section class="section">
-    <h2>Why Choose Me</h2>
-    <p>
-      Add your strengths: personalized teaching, results, student success, etc.
-    </p>
-  </section>
-
-  <!-- GALLERY -->
-
-  <section class="section dark">
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="img1.jpg">
-      <img src="img2.jpg">
-      <img src="img3.jpg">
     </div>
   </section>
 
-  <!-- CTA -->
+  <!-- SPOKEN ENGLISH -->
+  <section class="card">
+    <img src="Spoken.png" class="card-img" alt="Spoken English">
 
-  <section class="cta">
-    <h2>Ready to Improve Your English?</h2>
-    <a class="btn" href="https://wa.me/94XXXXXXXXX" target="_blank">
-      Start Now on WhatsApp
+    <div class="card-text">
+      <h2>Spoken English</h2>
+      <p>
+        Turn language learning into an exciting experience for school students from Grade 6 up to Grade 13.
+        Through interactive language games, presentations, and social scenarios, students rapidly build vocabulary
+        and conversational fluency.
+      </p>
+    </div>
+  </section>
+
+  <!-- GRAMMAR -->
+  <section class="card reverse">
+    <img src="Grammar.png" class="card-img" alt="Grammar">
+
+    <div class="card-text">
+      <h2>English Grammar</h2>
+      <p>
+        Clear up confusion with systematic grammar lessons tailored for Grades 6–13.
+        We use level-targeted exercises and real-world application tasks to ensure students write and speak
+        with complete accuracy.
+      </p>
+    </div>
+  </section>
+
+  <!-- LITERATURE -->
+  <section class="card">
+    <img src="Lit.png" class="card-img" alt="Literature">
+
+    <div class="card-text">
+      <h2>English Literature</h2>
+      <p>
+        Master the Grade 10 and 11 literature syllabus with ease.
+        We provide clear, in-depth breakdowns of every text along with structured resource packs,
+        ensuring students know exactly how to structure high-scoring exam answers.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Contact</h2>
+
+    <p class="phone-big">077 6333 833</p>
+
+    <a class="whatsapp-btn"
+       href="https://wa.me/94776333833"
+       target="_blank">
+       💬 Message on WhatsApp
     </a>
   </section>
 
-  <footer>
-    <p>© 2026 YOUR NAME | All Rights Reserved</p>
-  </footer>
+  <!-- FLOATING WHATSAPP -->
+  <a class="float-wa"
+     href="https://wa.me/94776333833"
+     target="_blank">
+     🟢
+  </a>
 
 </body>
 </html>
