@@ -9,7 +9,7 @@
 </head>
 
 <body>
-logobrown.png
+<logobrown.png>
 
   <!-- HERO -->
 
