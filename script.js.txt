@@ -1,0 +1,6 @@
+console.log("Website loaded successfully");
+
+// Future upgrades:
+// - animations
+// - form handling
+// - booking system
