@@ -11,8 +11,8 @@
 }
 
 body {
-  background: #f5f7fb;
-  color: #111;
+  background: white;
+  color: black;
 }
 
 /* TOP BAR */
@@ -21,7 +21,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 15px 20px;
-  background: #0f172a;
+  background: white;
   color: white;
 }
 .logo {
