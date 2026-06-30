@@ -21,9 +21,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 15px 20px;
-  background: #0f172a;
-  color: white;
-}
+  background: white;
+color: black;
 
 .logo {
   width: 55px;
@@ -38,8 +37,8 @@ body {
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #1e293b, #0f172a);
-  color: white;
+  background: white;
+  color: black;
   text-align: center;
   padding: 60px 20px;
 }
@@ -111,8 +110,8 @@ body {
 .contact {
   text-align: center;
   padding: 60px 20px;
-  background: #0f172a;
-  color: white;
+  background: white;
+  color: black;
 }
 
 .phone-big {
