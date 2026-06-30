@@ -8,8 +8,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Recoleta", Arial, sans-serif;
-  background: white;
-  color: black;
 }
 
 body {
@@ -39,8 +37,8 @@ body {
 
 /* HERO */
 .hero {
-  background: linear-gradient(135deg, #1e293b, #0f172a);
-  color: white;
+  background: white(135deg, #1e293b, #0f172a);
+  color: black;
   text-align: center;
   padding: 60px 20px;
 }
